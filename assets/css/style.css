@@ -557,6 +557,7 @@ body:not(.user-is-tabbing) a:focus {
 .footer__social-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: var(--gutter-normal) 0;
     list-style: none;
 }
@@ -567,6 +568,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-link-item:hover{
     background-color: var(--secondary);
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     padding: 5px 10px;
 }
